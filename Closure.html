@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    //Closure is a feature in js where an enner function has access to the outer function s variable.
+function Outer(){
+   let  b=10;
+   let h="hansu";
+    function InnerFunc() {
+        let a=20;
+        console.log(a+b);
+        console.log(h);
+    }
+    InnerFunc()
+}
+
+</script>
+</body>
+</html>
+

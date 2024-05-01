@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+
+// let msg = "    iLovecoding   ";
+// let Newmsg=msg.trim()
+// console.log(Newmsg);
+// let index=Newmsg.indexOf("e")
+// console.log(index);
+
+
+
+
+// let msg="ThisisHans";
+// document.write(msg.slice(0,4))
+
+//4-jitna print karwana h usse ek jyada number dena padega
+
+
+
+
+
+// let msg="ThisisHans";
+// document.write(msg.slice(6))
+
+
+
+
+
+
+
+
+
+// let msg="ThisisHans";
+// document.write(msg.slice(-2))
+//means-10-2=8 mtlb tumne 8 number diya h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// replace method
+// let msg="Theprogrammer"
+// let Newmsg=msg.replace('The','HansuThe ')
+// document.write(Newmsg)
+
+
+
+
+// // repeat method
+// let data='Hansu'
+// let answere=data.repeat(5)
+// console.log(answere);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//         let Bikes=["Hero","Discover","Yamaha","Apache"]
+//         let New=Bikes.push("Bullet","luna"); //push means to ADD!!! 
+//                           //push se last mei element add hote h 
+//                                                                 //starting mei element add karne ke liye Unshift() method kanuse karte h
+//         // console.log( 'new bikes'+New);
+//         document.write(New)
+// //pop() method                                                    //Shift() method :delete from start&returns it
+// //isse last wala element delete hokar return hota h 
+
+
+
+
+
+
+
+
+// //ARRAY METHOD
+// let primary=["red","green","yello","blue"]
+// let ans=primary.indexOf('green')
+// console.log(ans);
+
+
+
+// // //INCLUDE METHOD
+
+// let colors=["red","green","yellow","blue","2"]
+// // let answ=colors.includes("red")
+// let answ=colors.includes("2")
+// //returns TRUE if found the data ELSE retuns false 
+// console.log(answ);
+
+
+
+
+
+
+
+
+// //CONCATE ARRAY
+// firstarr=["IQ","EQ","SQ"]
+// secondarr=["philospher","Great teacher","Elintend"]
+//  let concate=
+//  firstarr.concat(secondarr)
+//  console.log(concate);
+
+
+
+
+
+
+
+
+
+//  //REVERS ARRAY
+//  let arr=['cricket','football','hockey','badminton','chess']
+//  //orignal array reverse hota new arr nhi banta
+// let revers=arr.reverse()
+// console.log(revers);
+
+
+
+
+
+
+
+// //SLICE METHOD IN ARRAY
+// //no changes in orignal array
+// let cars=["maruti","bmw","ferrari","lamborginy"]
+// // let car=cars.slice(length-1)
+// // let car=cars.slice(3)
+// // let car=cars.slice(-2)
+// let car=cars.slice(1,3)
+
+// console.log(car);
+
+
+
+
+
+
+
+
+// // SPLICE METHOD
+// // changes in original array
+// //use for delete,add,replace
+// let flower=["lily","rose","caulyflower","genda"]
+// // let fool=flower.splice(3)
+// // let fool=flower.splice(0,1)
+// // let fool=flower.splice(0,1,"chameli","surajmukhi");
+// // let fool=flower.splice(2,0,"surajmukhi");
+// let fool=flower.splice(1,1,"kukurmutta");
+// console.log(fool);
+
+
+
+
+
+
+
+// // // ARRAY SORT() METHOD
+// let char=['a','e','h','b','c','d','e']
+// let num=[12,34,56,65,43,32,100]
+// //converts first in chacacter
+
+// // let sort=char.sort()
+// let sort=num.sort()
+
+// console.log(sort);
+
+
+
+
+
+
+
+
+
+
+
+//forEach method
+// array.forEach(some function definition or name)
+
+// let arr=[1,2,3,4,5]
+// let print=function(el){
+//     console.log(el);
+// }
+// arr.forEach(print)
+
+
+
+
+
+
+// //another way
+
+// let arr=[1,2,3,7,4,5]
+// arr.forEach(function(el){
+//     console.log(el);
+// })
+
+
+
+
+
+
+
+//another way arraw function
+
+// let arr=[1,2,3,7,4,5]
+// arr.forEach((el)=>{
+//     console.log(el);
+// })
+
+
+
+
+// let student=[{
+//     pen:"10ruppe",
+//     price:'100',
+
+// },{
+//     mobile:'100k',
+//     price:'1000rupee'
+// },{
+//     royalenfeiled:'2.5lack',
+//     // yamaha:'1lack'
+//     price:'1lack'
+// }]
+// let obj=student.forEach((el)=>{
+//    console.log(el.price);
+// })
+
+
+
+
+
+
+
+// // FILTER METHOD
+// let nums=[1,2,3,4,5,6,7,8,10,12,22,24]
+// let ans=nums.filter((el)=>{
+//     // return el%2!==0;
+//     return el%2==0;
+// })
+// console.log(ans);
+
+
+
+
+
+
+
+
+
+
+
+
+//EVERY METHOD =logical &&              //SOME METHOD= logical ||
+// return ONLY TRUE OR false
+                                      //    [2,1,8,4,6].some((el)=>el%2==0
+// [2,4,6].every((el)=>el%2==0)                 //true
+// true
+// [2,8,4,6].every((el)=>el%2==0)
+// true
+// [2,8,4,6].every((el)=>el%2==0)
+// true
+// [2,1,8,4,6].every((el)=>el%2==0)
+// false
+
+
+
+
+
+
+
+
+
+//logically=>..
+
+// let arr=[1,2,3,4,5,6,7,8,8,12]
+// let max=''
+// for(i=0;i<arr.length;i++){
+//     if(max<arr[i]){
+//         max=arr[i]
+//     }
+// }
+// console.log(max);
+
+
+
+
+
+
+
+
+
+
+// through reduce=>...
+
+let arr=[1,2,22,3,4,5,6,7,8,8,12]
+
+let max=arr.reduce((max,el)=>{
+    if(max<el){
+        return el;
+    }else{
+        return max;
+    }
+})
+console.log(max);
+
+
+    </script>
+</body>
+</html>
